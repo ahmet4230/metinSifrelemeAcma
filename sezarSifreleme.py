@@ -39,7 +39,7 @@ def şifreçöz():
         anahtar=int(input("Anahtar belirtiniz (pozitif sayi olucak anahtar) ")) #offset değeri giriliyor.
         if int(anahtar) < 0: #anahtarın 0 dan küçük olamayacağı belirtiliyor.
             cls()
-            print("Tekrar deneyin..\n Nütfen pozitif bir anahtar belirt abiciğim ")
+            print("Tekrar deneyin..\n Nütfen pozitif bir anahtar belirtiniz")
             input()
             cls()
         else:
